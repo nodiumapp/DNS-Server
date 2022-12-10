@@ -1,12 +1,12 @@
-RiiConnect24 DNS Server [![Actions Status](https://github.com/RiiConnect24/DNS-Server/workflows/Build/badge.svg)](https://github.com/RiiConnect24/DNS-Server/actions)
+Stadium DNS Server
 ===
 
-This DNS Server will run locally on your computer and allow your Wii to connect to RiiConnect24 servers even if your ISP blocks connections to our DNS Server. When you use the DNS on your Wii or with this app, it also enhances the use of services such as Wiimmfi. This tool can also be used as a DNS server for Nintendo DS games.
+This DNS Server will run locally on your computer and allow your Chromecast to connect to the Stadium servers.
 
 ## Setup
 
-Setup process is the same as shown on our guide
-https://wii.guide/riiconnect24 
+Setup process is shown here:
+https://github.com/stadiumapp/DNS-Server/wiki/setup
 
 You will only need to change DNS Settings in your Wii.
 
