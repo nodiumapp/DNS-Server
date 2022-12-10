@@ -1,12 +1,12 @@
-Stadium DNS Server
+Nodium DNS Server
 ===
 
-This DNS Server will run locally on your computer and allow your Chromecast to connect to the Stadium servers.
+This DNS Server will run locally on your computer and allow your Chromecast to connect to the Nodium servers.
 
 ## Setup
 
 Setup process is shown here:
-https://github.com/stadiumapp/DNS-Server/wiki/setup
+https://github.com/nodiumapp/DNS-Server/wiki/setup
 
 You will only need to change DNS Settings in your Wii.
 
