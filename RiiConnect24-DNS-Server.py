@@ -54,7 +54,7 @@ MY_IP = get_ip()
 print("+===============================+")
 print("|       Nodium DNS Server       |")
 print("|          Version " + RIICONNECT24DNSSERVER_VERSION + "          |")
-print("|        Version " + NODIUMDNSSERVER_VERSION + "        |")
+print("|       Version " + NODIUMDNSSERVER_VERSION + "        |")
 print("+===============================+\n")
 
 print("Hello! This server will allow you to connect to RiiConnect24 when your Internet Service Provider does not work with custom DNS.")
