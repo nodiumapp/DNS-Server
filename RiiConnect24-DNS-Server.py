@@ -5,6 +5,9 @@
 # RiiConnect24 DNS Server v1.2
 # Created by Austin Burk/Sudomemo. Edited by KcrPL and Larsenv.
 
+# Nodium Chromecast DNS Server v1.0.beta
+# Original created by Austin Burk/Sudomemo. RiiConnect24 fork by KcrPL and Larsenv. Reused for Nodium Chromecast support.
+
 from datetime import datetime
 from time import sleep
 
@@ -30,6 +33,7 @@ def get_platform():
     return platforms[sys.platform]
 
 RIICONNECT24DNSSERVER_VERSION = "1.2"
+NODIUMDNSSERVER_VERSION = "1.0.beta"
 
 def get_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -48,8 +52,9 @@ SERIAL = int((datetime.utcnow() - EPOCH).total_seconds())
 MY_IP = get_ip()
 
 print("+===============================+")
-print("|    RiiConnect24 DNS Server    |")
+print("|       Nodium DNS Server       |")
 print("|          Version " + RIICONNECT24DNSSERVER_VERSION + "          |")
+print("|        Version " + NODIUMDNSSERVER_VERSION + "        |")
 print("+===============================+\n")
 
 print("Hello! This server will allow you to connect to RiiConnect24 when your Internet Service Provider does not work with custom DNS.")
@@ -155,7 +160,7 @@ class Record:
 ZONES = {}
 
 try:
-  get_zones = requests.get("https://raw.githubusercontent.com/RiiConnect24/DNS-Server/master/dns_zones.json")
+  get_zones = requests.get("https://raw.githubusercontent.com/nodiumapp/DNS-Server/master/dns_zones.json")
 except requests.exceptions.Timeout:
   print("[ERROR] Couldn't load DNS data: connection to GitHub timed out.")
   print("[ERROR] Are you connected to the Internet?")
