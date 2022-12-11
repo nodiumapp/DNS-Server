@@ -3,20 +3,9 @@ Nodium DNS Server
 
 This DNS Server will run locally on your computer and allow your Chromecast to connect to the Nodium servers.
 
-## Setup
-
-Setup process is shown here:
-https://github.com/nodiumapp/DNS-Server/wiki/setup
-
-You will only need to change DNS Settings in your Wii.
-
-First, make sure that your Wii is connected to the same network as your computer is.
-
-**If you use Pi-hole, please see [Setting up Pi-hole](#Setting-up-Pi-hole)**
-
 # Running on Windows:
 
-Run the .exe provided [on the releases page](https://github.com/RiiConnect24/RiiConnect24-DNS-Server/releases). If your antivirus notifies you about the .exe file, allow it and run it. If it doesn't work, you should also allow communication for this this .exe in your firewall settings.
+Run the .exe provided [on the releases page](https://github.com/nodiumapp/DNS-Server/releases). If your antivirus notifies you about the .exe file, allow it and run it. If it doesn't work, you should also allow communication for this this .exe in your firewall settings.
 
 # Running on Linux/macOS:
 
@@ -26,7 +15,7 @@ You will need to install Python 3 and run these commands in the Terminal.
 
 To run it, simply type in:
 
-> sudo python3 RiiConnect24-DNS-Server.py
+> sudo python3 Nodium-DNS-Server.py
 
 Replace `python3` with the name/path to your Python binary if necessary
 
